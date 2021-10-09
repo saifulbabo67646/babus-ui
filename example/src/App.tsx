@@ -1,12 +1,12 @@
-import { Button, Radio } from 'alice-component-library'
-import 'alice-component-library/dist/index.css'
+import { Button, Radio } from 'babus-ui'
+import 'babus-ui/dist/index.css'
 import React from 'react'
 
 const App = () => {
   return (
     <div style={{ padding: 20 }}>
       <div style={{ marginBottom: 20 }}>
-        <Button onClick={() => {}}>Alice Component Library</Button>
+        <Button onClick={() => {}}>Babus ui</Button>
       </div>
       <div>
         <Button variant='primaryGhost' onClick={() => {}}>
